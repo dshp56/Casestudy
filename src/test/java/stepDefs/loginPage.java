@@ -14,6 +14,7 @@ public class loginPage {
 	
 	
 	WebDriver driver = testBase.getDriver();
+	
 	@Given("User is on Login Page")
 	public void user_is_on_login_page() {
 	    // Write code here that turns the phrase above into concrete actions
